@@ -12,7 +12,7 @@ docker compose -f docker-compose.local.yml up -d
 ```
 -Dspring.profiles.active=local
 ```
-и запускаем
+или через терминал
 ```
 ./gradlew bootRun --args='--spring.profiles.active=local'
 ```
