@@ -16,3 +16,4 @@ docker compose -f docker-compose.local.yml up -d
 ```
 ./gradlew bootRun --args='--spring.profiles.active=local'
 ```
+Сваггер - http://localhost:8080/swagger-ui/index.html
