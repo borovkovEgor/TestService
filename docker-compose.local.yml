@@ -1,7 +1,6 @@
 services:
   db:
     image: postgres:latest
-    container_name: postgres_test
     environment:
       POSTGRES_DB: testdb
       POSTGRES_USER: admin
